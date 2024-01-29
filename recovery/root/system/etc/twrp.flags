@@ -64,6 +64,5 @@ product         /product        erofs                            wait,logical,fi
 
 
 # External-Devices (SDCARD | OTG)
-/external_sd   auto    /dev/block/mmcblk0p1  /dev/block/mmcblk0   flags=display="MicroSD";fsflags=utf8;storage;wipeingui;removable
-/usb_otg       auto       /dev/block/sdd1      /dev/block/sdd     flags=display="Usb_Otg";fsflags=utf8;storage;wipeingui;removable
-
+/external_sd    auto     /dev/block/mmcblk1p1  /dev/block/mmcblk1 flags=display="External_SDcard";storage;wipeingui;removable;fsflags="utf8"
+/usb-otg            auto      /dev/block/sda1  /dev/block/sda     flags=display="USB OTG";storage;wipeingui;removable;fsflags="utf8
