@@ -2,7 +2,7 @@
 ro.board.platform=mt6768
 ro.vendor.mediatek.platform=MT6768
 ro.boot.hardware=mt6768
-ro.hardware=mt6781
+ro.hardware=mt6768
 ro.vendor.mtk_f2fs_enable=0
 ro.vendor.mtk_emmc_support=1
 ro.vendor.mtk_ufs_support=1
